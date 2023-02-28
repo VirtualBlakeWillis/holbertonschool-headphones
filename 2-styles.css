@@ -156,7 +156,6 @@ p {
   top: 0.5rem;
 }
 
-
 #burger-check:checked ~ * #burger-line::before {
   top: 0;
   left: 0;
@@ -323,4 +322,62 @@ p {
 .wwd__icon {
   color: var(--hover-active-links-color);
   font-size: 5rem;
+}
+
+/**---- Our Results Section ----**/
+
+.results {
+  color: var(--color-white);
+  padding-top: 100px;
+  max-width: 637px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("./images/headphones_hero_2.jpg");
+  width: 2560px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+.results-section {
+  color: var(--color-white);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.results-section p {
+  font-size: medium;
+  padding-top: 4rem;
+
+}
+.or_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.or-1 {
+  width: 190px;
+  height: 190px;
+  background-image: url('images/pentagone.png');
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+}
+
+.or-1 h1 {
+  font-size: 46px !important;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+.or-1 p {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0 auto;
 }
